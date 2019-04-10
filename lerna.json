@@ -3,5 +3,19 @@
   "packages": [
     "packages/*"
   ],
+  "command": {
+    "publish": {
+      "access": "public",
+      "allowBranch": "master",
+      "message": "chore(release): publish %s"
+    },
+
+    "version": {
+      "allowBranch": "master",
+      "conventionalCommits": true,
+      "exact": true,
+      "message": "chore(release): %s"
+    }
+  },
   "version": "0.0.0"
 }

@@ -1,0 +1,29 @@
+if: tag IS blank
+
+git:
+  depth: 1
+
+matrix:
+  fast_finish: true
+
+cache: npm
+
+language: node_js
+node_js:
+  - node
+  - lts/*
+  - lts/carbon
+
+install:
+  - npm ci
+  - npm run bootstrap
+
+jobs:
+  include:
+    - stage: test
+      name: "Unit Tests"
+      script: npm test
+      script: npm run build
+
+stages:
+  - test

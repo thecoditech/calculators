@@ -9,7 +9,6 @@
       "allowBranch": "master",
       "message": "chore(release): publish %s"
     },
-
     "version": {
       "allowBranch": "master",
       "conventionalCommits": true,
@@ -17,5 +16,5 @@
       "message": "chore(release): %s"
     }
   },
-  "version": "0.0.0"
+  "version": "0.1.0"
 }

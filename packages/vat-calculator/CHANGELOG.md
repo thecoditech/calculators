@@ -1,5 +1,22 @@
 # Change Log
 
+All notable changes to this project will be documented in this file.
+See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
+## [0.2.2](https://github.com/infinitetoolbox/calculators/packages/vat-calculator/compare/@infinitetoolbox/vat-calculator@0.1.0...@infinitetoolbox/vat-calculator@0.2.2) (2020-01-12)
+
+
+
+## 0.2.2 (2020-01-12)
+
+**Note:** Version bump only for package @infinitetoolbox/vat-calculator
+
+
+
+
+
+# Change Log
+
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
 <a name="0.2.2"></a>

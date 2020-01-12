@@ -14,7 +14,7 @@ $ npm install @infinitetoolbox/vat-calculator
 ```js
 import { frenchVatCalculator } from '@infinitetoolbox/vat-calculator';
 
-const vatNumber = await frenchVatCalculator(siretOrSiren);
+const vatNumber = frenchVatCalculator(siretOrSiren);
 ```
 
 ## Maintainers

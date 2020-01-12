@@ -11,7 +11,8 @@ cache: npm
 language: node_js
 node_js:
   - node
-  - lts/*
+  - lts/erbium
+  - lts/dubnium
   - lts/carbon
 
 install:

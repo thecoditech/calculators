@@ -7,7 +7,7 @@
   "module": "build/module/index.js",
   "repository": "https://github.com/infinitetoolbox/calculators/packages/vat-calculator",
   "license": "MIT",
-  "keywords": [],
+  "keywords": ["infinitetoolbox", "vat", "calculator"],
   "scripts": {
     "describe": "npm-scripts-info",
     "build": "run-s clean && run-p build:*",

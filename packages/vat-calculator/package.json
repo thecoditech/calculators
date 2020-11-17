@@ -63,7 +63,7 @@
     "nyc": "14.1.1",
     "opn-cli": "4.1.0",
     "prettier": "1.17.0",
-    "standard-version": "^4.4.0",
+    "standard-version": "^8.0.1",
     "trash-cli": "1.4.0",
     "tslint": "5.16.0",
     "tslint-config-prettier": "1.18.0",

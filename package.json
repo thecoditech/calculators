@@ -7,9 +7,9 @@
     "publish": "lerna publish from-git --yes"
   },
   "devDependencies": {
-    "cz-conventional-changelog": "^2.1.0",
-    "lerna": "^3.12.2",
-    "standard-version": "^8.0.0"
+    "cz-conventional-changelog": "2.1.0",
+    "lerna": "3.13.2",
+    "standard-version": "8.0.2"
   },
   "config": {
     "commitizen": {

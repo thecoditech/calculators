@@ -51,7 +51,7 @@
     "opn-cli": "4.1.0",
     "prettier": "1.19.1",
     "trash-cli": "1.4.0",
-    "tslint": "5.14.0",
+    "tslint": "5.20.1",
     "tslint-config-prettier": "1.18.0",
     "tslint-immutable": "5.5.2",
     "typescript": "3.4.1"

@@ -25,4 +25,4 @@ const bmi = bmiCalculator(mass, height);
 
 ## License
 
-MIT © [Infinitetoolbox](https://calculators.infinitetoolbox.org)
+MIT © [InfiniteToolbox](https://calculators.infinitetoolbox.org)

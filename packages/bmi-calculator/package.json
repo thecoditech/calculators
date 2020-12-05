@@ -50,7 +50,7 @@
     "nyc": "15.1.0",
     "opn-cli": "4.1.0",
     "prettier": "1.19.1",
-    "trash-cli": "1.4.0",
+    "trash-cli": "4.0.0",
     "tslint": "5.20.1",
     "tslint-config-prettier": "1.18.0",
     "tslint-immutable": "6.0.1",

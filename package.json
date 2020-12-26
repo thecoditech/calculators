@@ -7,7 +7,7 @@
     "publish": "lerna publish from-git --yes"
   },
   "devDependencies": {
-    "@emmanuelgautier/renovate-config": "1.1.1",
+    "@emmanuelgautier/renovate-config": "1.1.2",
     "cz-conventional-changelog": "3.3.0",
     "lerna": "3.22.1",
     "standard-version": "9.0.0"

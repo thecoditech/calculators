@@ -9,7 +9,7 @@
   "devDependencies": {
     "@emmanuelgautier/renovate-config": "1.1.2",
     "cz-conventional-changelog": "3.3.0",
-    "lerna": "3.22.1",
+    "lerna": "4.0.0",
     "standard-version": "9.1.0"
   },
   "config": {

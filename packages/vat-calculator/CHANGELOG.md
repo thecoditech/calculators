@@ -1,7 +1,8 @@
-# Change Log
+# Changelog
 
-All notable changes to this project will be documented in this file.
-See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+### [0.2.10](https://github.com///compare/v0.2.8...v0.2.10) (2021-06-21)
 
 ## [0.2.8](https://github.com/infinitetoolbox/calculators/packages/vat-calculator/compare/@infinitetoolbox/vat-calculator@0.2.5...@infinitetoolbox/vat-calculator@0.2.8) (2021-05-08)
 

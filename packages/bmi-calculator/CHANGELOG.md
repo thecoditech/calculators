@@ -1,3 +1,20 @@
+# Change Log
+
+All notable changes to this project will be documented in this file.
+See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
+## [0.2.8](https://github.com/infinitetoolbox/calculators/packages/bmi-calculator/compare/@infinitetoolbox/bmi-calculator@0.2.5...@infinitetoolbox/bmi-calculator@0.2.8) (2021-06-21)
+
+
+
+## 0.2.8 (2021-06-21)
+
+**Note:** Version bump only for package @infinitetoolbox/bmi-calculator
+
+
+
+
+
 # Changelog
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.

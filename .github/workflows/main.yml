@@ -56,9 +56,6 @@ jobs:
         if: steps.npm-lerna.outputs.cache-hit != 'true'
         run: npm run bootstrap
 
-      - name: Run linter 👀
-        run: npm run lint
-
       - name: Run tests 🧪
         run: npm run test
 

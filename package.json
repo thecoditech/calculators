@@ -9,7 +9,6 @@
     "lerna": "lerna",
     "bootstrap": "lerna bootstrap",
     "test": "lerna run test",
-    "lint": "lerna run lint",
     "build": "lerna run build",
     "publish": "lerna publish from-git --yes"
   },

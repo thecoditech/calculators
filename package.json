@@ -10,7 +10,7 @@
     "@emmanuelgautier/renovate-config": "1.2.2",
     "cz-conventional-changelog": "3.3.0",
     "lerna": "4.0.0",
-    "standard-version": "9.3.1"
+    "standard-version": "9.3.2"
   },
   "config": {
     "commitizen": {

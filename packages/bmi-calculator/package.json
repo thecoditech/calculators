@@ -44,7 +44,7 @@
     "prepare-release": "run-s reset-hard test cov:check doc:html version doc:publish"
   },
   "engines": {
-    "node": ">=8.9"
+    "node": ">=12"
   },
   "devDependencies": {
     "@ava/typescript": "1.1.1",

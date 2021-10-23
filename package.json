@@ -10,7 +10,7 @@
     "bootstrap": "lerna bootstrap",
     "test": "lerna run test",
     "build": "lerna run build",
-    "publish": "lerna publish from-git --yes"
+    "publish": "lerna publish --yes"
   },
   "devDependencies": {
     "@emmanuelgautier/renovate-config": "1.2.2",

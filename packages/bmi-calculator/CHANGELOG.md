@@ -1,7 +1,8 @@
-# Change Log
+# Changelog
 
-All notable changes to this project will be documented in this file.
-See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+### [0.2.35](https://github.com/infinitetoolbox/calculators/packages/bmi-calculator/compare/v0.2.36...v0.2.35) (2021-11-27)
 
 ## 0.2.33 (2021-11-21)
 

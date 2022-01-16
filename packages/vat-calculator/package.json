@@ -1,6 +1,6 @@
 {
   "name": "@infinitetoolbox/vat-calculator",
-  "version": "0.2.60",
+  "version": "0.2.62",
   "description": "VAT Number calculator",
   "main": "build/main/index.js",
   "typings": "build/main/index.d.ts",

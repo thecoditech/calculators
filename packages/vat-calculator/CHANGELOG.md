@@ -1,7 +1,8 @@
-# Change Log
+# Changelog
 
-All notable changes to this project will be documented in this file.
-See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+### 0.2.74 (2022-02-25)
 
 ## 0.2.72 (2022-02-25)
 

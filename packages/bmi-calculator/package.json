@@ -1,6 +1,6 @@
 {
   "name": "@infinitetoolbox/bmi-calculator",
-  "version": "0.2.75",
+  "version": "0.2.77",
   "description": "BMI calculator",
   "main": "build/main/index.js",
   "typings": "build/main/index.d.ts",

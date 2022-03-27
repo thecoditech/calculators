@@ -28,7 +28,7 @@ jobs:
           node-version: ${{ env.NODE_VERSION }}
 
       - name: Cache lerna 📦
-        uses: actions/cache@v2
+        uses: actions/cache@v3
         id: npm-lerna
         with:
           path: |
@@ -44,7 +44,7 @@ jobs:
 
       - name: Cache node_modules 📦
         if: steps.npm-lerna.outputs.cache-hit != 'true'
-        uses: actions/cache@v2
+        uses: actions/cache@v3
         id: npm-cache
         with:
           path: ${{ steps.npm-cache-dir.outputs.dir }}

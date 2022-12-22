@@ -1,10 +1,7 @@
 {
   "packages": {
-    ".": {
-      "release-as": ""
-    },
     "packages/bmi-calculator": {
-      "changelog-path": "packages/bmi-calculator/CHANGELOG.md",
+      "changelog-path": "CHANGELOG.md",
       "release-type": "node",
       "bump-minor-pre-major": false,
       "bump-patch-for-minor-pre-major": false,
@@ -12,7 +9,7 @@
       "prerelease": false
     },
     "packages/vat-calculator": {
-      "changelog-path": "packages/vat-calculator/CHANGELOG.md",
+      "changelog-path": "CHANGELOG.md",
       "release-type": "node",
       "bump-minor-pre-major": false,
       "bump-patch-for-minor-pre-major": false,

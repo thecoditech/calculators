@@ -12,4 +12,4 @@
 
 ## License
 
-MIT © [InfiniteToolbox](https://calculators.infinitetoolbox.org)
+MIT © [InfiniteToolbox](https://github.com/infinitetoolbox)

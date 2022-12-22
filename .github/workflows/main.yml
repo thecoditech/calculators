@@ -13,48 +13,27 @@ jobs:
     runs-on: ubuntu-latest
 
     strategy:
+      fail-fast: false
       matrix:
-        node: [ 'lts/erbium', 'lts/fermium', '16', '17' ]
+        node: [ 'lts/fermium', 'lts/gallium', 'lts/hydrogen', '19' ]
 
     name: Node ${{ matrix.node }}
 
     steps:
       - name: Checkout 🛎
-        uses: actions/checkout@master
+        uses: actions/checkout@v3
 
       - name: Setup node env 🏗
         uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node }}
-
-      - name: Cache lerna 📦
-        uses: actions/cache@v3
-        id: npm-lerna
-        with:
-          path: |
-            node_modules
-            */*/node_modules
-          key: ${{ runner.os }}-${{ matrix.node }}-${{ hashFiles('**/package-lock.json') }}
-
-      - name: Get npm cache directory
-        id: npm-cache-dir
-        if: steps.npm-lerna.outputs.cache-hit != 'true'
-        run: |
-          echo "::set-output name=dir::$(npm config get cache)"
-
-      - name: Cache node_modules 📦
-        if: steps.npm-lerna.outputs.cache-hit != 'true'
-        uses: actions/cache@v3
-        id: npm-cache
-        with:
-          path: ${{ steps.npm-cache-dir.outputs.dir }}
-          key: ${{ runner.os }}-${{ matrix.node }}-npm-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: |
-            ${{ runner.os }}-${{ matrix.node }}-npm-
+          cache: 'npm'
 
       - name: Install dependencies 👨🏻‍💻
-        if: steps.npm-lerna.outputs.cache-hit != 'true'
-        run: npm run bootstrap
+        run: |
+          npm i -g npm
+          npm ci
+          npm run bootstrap
 
       - name: Run tests 🧪
         run: npm run test

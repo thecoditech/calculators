@@ -6,7 +6,7 @@ on:
       - master
 
 env:
-  NODE_VERSION: lts/fermium
+  NODE_VERSION: lts/gallium
 
 permissions:
   contents: write
@@ -26,35 +26,13 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: ${{ env.NODE_VERSION }}
-
-      - name: Cache lerna 📦
-        uses: actions/cache@v3
-        id: npm-lerna
-        with:
-          path: |
-            node_modules
-            */*/node_modules
-          key: ${{ runner.os }}-${{ env.NODE_VERSION }}-${{ hashFiles('**/package-lock.json') }}
-
-      - name: Get npm cache directory
-        id: npm-cache-dir
-        if: steps.npm-lerna.outputs.cache-hit != 'true'
-        run: |
-          echo "::set-output name=dir::$(npm config get cache)"
-
-      - name: Cache node_modules 📦
-        if: steps.npm-lerna.outputs.cache-hit != 'true'
-        uses: actions/cache@v3
-        id: npm-cache
-        with:
-          path: ${{ steps.npm-cache-dir.outputs.dir }}
-          key: ${{ runner.os }}-${{ env.NODE_VERSION }}-npm-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: |
-            ${{ runner.os }}-${{ env.NODE_VERSION }}-npm-
+          cache: 'npm'
+          cache-dependency-path: '**/package-lock.json'
 
       - name: Install dependencies 👨🏻‍💻
-        if: steps.npm-lerna.outputs.cache-hit != 'true'
-        run: npm run bootstrap
+        run: |
+          npm ci
+          npm run bootstrap
 
       - name: Git Identity
         run: |

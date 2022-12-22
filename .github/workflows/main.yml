@@ -31,7 +31,6 @@ jobs:
 
       - name: Install dependencies 👨🏻‍💻
         run: |
-          npm i -g npm
           npm ci
           npm run bootstrap
 

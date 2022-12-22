@@ -53,7 +53,7 @@
     "@types/node": "16.11.22",
     "@typescript-eslint/eslint-plugin": "5.10.2",
     "@typescript-eslint/parser": "5.10.2",
-    "ava": "3.15.0",
+    "ava": "5.1.0",
     "codecov": "3.8.3",
     "cspell": "5.18.3",
     "eslint": "8.8.0",

@@ -15,7 +15,7 @@
   "devDependencies": {
     "@emmanuelgautier/renovate-config": "1.5.0",
     "cz-conventional-changelog": "3.3.0",
-    "lerna": "5.1.6",
+    "lerna": "5.5.2",
     "standard-version": "9.5.0"
   },
   "config": {

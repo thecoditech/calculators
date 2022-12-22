@@ -1,7 +1,5 @@
 # VAT Number Calculator
 
-[![Build Status](https://travis-ci.org/infinitetoolbox/calculators.svg?branch=master)](https://travis-ci.org/infinitetoolbox/calculators)
-
 > VAT number calculator module
 
 ## Install
@@ -25,4 +23,4 @@ const vatNumber = frenchVatCalculator(siretOrSiren);
 
 ## License
 
-MIT © [Infinitetoolbox](https://calculators.infinitetoolbox.org)
+MIT © [Infinitetoolbox](https://github.com/infinitetoolbox)

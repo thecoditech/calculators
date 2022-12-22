@@ -1,7 +1,5 @@
 # BMI Calculator
 
-[![Build Status](https://travis-ci.org/infinitetoolbox/calculators.svg?branch=master)](https://travis-ci.org/infinitetoolbox/calculators)
-
 > Body Mass Index (BMI) calculator module
 
 ## Install
@@ -25,4 +23,4 @@ const bmi = bmiCalculator(mass, height);
 
 ## License
 
-MIT © [InfiniteToolbox](https://calculators.infinitetoolbox.org)
+MIT © [Infinitetoolbox](https://github.com/infinitetoolbox)

@@ -63,7 +63,7 @@
     "nyc": "15.1.0",
     "open-cli": "7.2.0",
     "prettier": "2.8.8",
-    "typescript": "4.9.5"
+    "typescript": "5.1.6"
   },
   "ava": {
     "failFast": true,

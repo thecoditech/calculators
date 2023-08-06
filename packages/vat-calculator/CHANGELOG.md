@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.0.0 (2023-08-06)
+
+
+### Features
+
+* **vat-calculator:** boostrap vat calculator ([6567b64](https://github.com/thecoditech/calculators/commit/6567b6468ffa0e63d7f76bc7cd451f7c44bcf398))
+
+
+### Bug Fixes
+
+* add @typescript-eslint/parser for older node versions ([a311542](https://github.com/thecoditech/calculators/commit/a311542eec8c8cd5694d627610530af6b8e24431))
+* add ava compile options ([73b7edb](https://github.com/thecoditech/calculators/commit/73b7edb50e415e4432588661def84b2ccc63c128))
+
 ## 0.2.90 (2022-12-22)
 
 ## 0.2.90 (2022-12-22)

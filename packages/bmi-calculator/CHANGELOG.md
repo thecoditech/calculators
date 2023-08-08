@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.0.0 (2023-08-06)
+
+
+### Features
+
+* **bmi-calculator:** bootstrap bmi-calculator package ([e42e5c1](https://github.com/thecoditech/calculators/commit/e42e5c194aeace47a8b95ce09f11208bd2923a80))
+
+
+### Bug Fixes
+
+* add @typescript-eslint/parser for older node versions ([a311542](https://github.com/thecoditech/calculators/commit/a311542eec8c8cd5694d627610530af6b8e24431))
+* add ava compile options ([73b7edb](https://github.com/thecoditech/calculators/commit/73b7edb50e415e4432588661def84b2ccc63c128))
+
 ## 0.2.89 (2022-12-22)
 
 ## 0.2.89 (2022-12-22)
